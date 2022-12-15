@@ -36,7 +36,7 @@ if (playGame) {
                 playAgain ? location.reload() : alert("Thanks for playing have nice day...")
 
         } else {
-            alert("you did n't enter rock, paper, scissors")
+            alert("you didn't enter rock, paper, scissors")
         }
     } else {
         alert("I guess you changed your mind. may be next time.")

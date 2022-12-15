@@ -8,6 +8,8 @@ const emp2 = ['ramya', 'geetha', 'sravani']
 const student1 = ['pavan', 'kalayn', 'pk']
 const student2 = ['sai', 'vamsi', 'anand']
 
+
+// 2D Arrays
 const students = [emp1, emp2]
                   //0     1  
 const employees = [student1, student2]

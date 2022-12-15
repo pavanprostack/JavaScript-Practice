@@ -1,4 +1,4 @@
-// updating previuos game using while loop
+// Rock, Paper, Scissors: Refactored with while loop
 
 let playGame = confirm("Shall we play rock, paper, or scissors game?");
 

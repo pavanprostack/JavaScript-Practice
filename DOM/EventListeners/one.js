@@ -3,8 +3,8 @@ const view = document.getElementById("view2");
 const div = view.querySelector("div")
 const h3 = div.querySelector("h3")
 
-// Syntax for eventlistener
-// addEventListener("event", function, useCapture)
+// Syntax for addeventlistener
+// addEventListener("event", function, useCapture(optional))
 
 
 // const something = () => {
@@ -12,6 +12,8 @@ const h3 = div.querySelector("h3")
 // }
 // h3.addEventListener("click", something, false)
 
+
+// Click event
 
 // using fatArrow Function
 h3.addEventListener("click", (event) => {

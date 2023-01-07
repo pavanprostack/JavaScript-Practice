@@ -1,0 +1,12 @@
+#parent{
+    border: 5px solid blue;
+    height: 500px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#child{
+    border:5px solid tomato;
+    padding: 50px;
+}

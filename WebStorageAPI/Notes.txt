@@ -1,0 +1,17 @@
+
+
+ Web Storage API : when we open browser, the browser information will store in web storage API.
+ 
+ it is two types 1.session storage, 2.local storage
+
+ 1.session storage : it automatically deleted by system after closing the browser. 
+ 2.local storage : it will not automatically deleted by system after closing the browser. 
+
+ It is not part of DOM. It refers to the Window API.
+ Available to javascript via the global variable Window.
+
+ we do not have to type Window. it is implied:
+
+ window.alert(window.location);
+       or
+ alert(location)

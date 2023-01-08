@@ -1,14 +1,6 @@
 
-// Web Storage API
-// It is not part of DOM. It refers to the Window API.
-// Available to javascript via the global variable Window.
 
-// we do not have to type Window. it is implied:
-
-// window.alert(window.location);
-// alert(location)
-
-// Session Storage
+// 1. Session Storage
 
 const myObject={
     name:"pavan",

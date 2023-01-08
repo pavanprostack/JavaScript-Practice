@@ -1,4 +1,5 @@
 
+// Local Storage
 
 const myArray = ["eat", "sleep", "code"];
 
@@ -12,13 +13,20 @@ const myObject = {
 
 
 // To convert string to object
-sessionStorage.setItem("mySessionStorage", JSON.stringify(myObject));
-const storage = JSON.parse(sessionStorage.getItem("mySessionStorage"));
+localStorage.setItem("myLocalStorage", JSON.stringify(myObject));
+// localStorage.clear()
+// const item = localStorage.removeItem("myLocalStorage")
+// const key=localStorage.key(1)
+// const length=localStorage.length;
+const storage = JSON.parse(localStorage.getItem("myLocalStorage"));
 console.log(storage);
+// console.log(length);
+// console.log(key);
+// console.log(item);
 
 // Array
-sessionStorage.setItem("mySessionStorage",JSON.stringify(myArray));
-const arrayStorage =JSON.parse( sessionStorage.getItem("mySessionStorage"));
+localStorage.setItem("myLocaltorage",JSON.stringify(myArray));
+const arrayStorage =JSON.parse( localStorage.getItem("myLocalStorage"));
 console.log(arrayStorage);
 
 

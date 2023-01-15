@@ -1,8 +1,8 @@
 // Promises.
 // callback hell best solution is Promises.
+// A Promise is a javascript object that links producing code and consuming code.
 
-
-// producer code
+// producing code => it is code that can take some time.
 function step1(value, error) {
     return new Promise((resolve, reject) => {
         if (!error) {
@@ -31,7 +31,7 @@ function step3(value, error) {
     })
 }
 
-// Consumer code
+// Consuming code  => it is code that must wait for the result.
 step1(10, false)
     .then((result1) => step2(result1, false))  // error is false here
     .then((result2) => step3(result2, false))

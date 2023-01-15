@@ -1,0 +1,12 @@
+
+Available state and values :
+1.pending
+2.fulfilled
+3.rejected
+
+
+Available Promise Methods :
+1. Promise.all([promises])
+2. Promise.allSettled([promises])
+3. Promise.any([promises])
+4. Promise.race([promises])
